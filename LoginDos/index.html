@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <div class="flex min-h-screen items-center justify-center bg-gradient-to-br from-purple-50 to-purple-100 p-4">
+        <div class="mx-auto w-full max-w-md shadow-lg rounded-lg bg-white"> <div class="space-y-1 p-6 text-center"> <div class="flex justify-center">
+                    <div class="rounded-full bg-purple-100 p-2">
+                        <i data-lucide-icon="mail" class="h-6 w-6 text-purple-600"></i>
+                    </div>
+                </div>
+                <h2 class="text-2xl font-bold tracking-tight mt-2">Subscribe to My Newsletter</h2>
+                <p class="text-sm text-gray-500"> Get the latest updates and insights delivered straight to your inbox
+                </p>
+            </div>
+            <div class="space-y-4 p-6 pt-0"> <div class="grid grid-cols-2 gap-4">
+                    <button class="flex items-center justify-center w-full px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors">
+                        <i data-lucide-icon="github" class="h-4 w-4 mr-2"></i>
+                        Github
+                    </button>
+                    <button class="flex items-center justify-center w-full px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors">
+                        <i data-lucide-icon="twitter" class="h-4 w-4 mr-2"></i>
+                        Twitter
+                    </button>
+                </div>
+                <div class="relative">
+                    <div class="absolute inset-0 flex items-center">
+                        <span class="w-full border-t border-gray-300"></span>
+                    </div>
+                    <div class="relative flex justify-center text-xs uppercase">
+                        <span class="bg-white px-2 text-gray-500">Or continue with</span>
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <input type="email" placeholder="name@example.com" class="flex h-10 w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-colors" />
+                    <button class="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 rounded-md transition-colors">Subscribe Now</button>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4 text-center p-6"> <div class="text-xs text-gray-500">
+                    <a href="#" class="underline underline-offset-4 hover:text-purple-600">Terms of Service</a>
+                    <span class="mx-1">&bull;</span>
+                    <a href="#" class="underline underline-offset-4 hover:text-purple-600">Privacy Policy</a>
+                    <span class="mx-1">&bull;</span>
+                    <a href="#" class="underline underline-offset-4 hover:text-purple-600">Help Center</a>
+                </div>
+                <p class="text-xs text-gray-500">We respect your privacy. We'll never share your information.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            lucide.createIcons();
+        });
+    </script>
+</body>
+</html>
